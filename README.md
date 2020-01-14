@@ -1,5 +1,12 @@
 # Download Google Docs content into a plain text file
 
+Requirements
+
+```
+pip3 install --upgrade google-api-python-client
+pip3 install --upgrade oauth2client
+```
+
 
 ## Using the Google Docs API (recommended)
 

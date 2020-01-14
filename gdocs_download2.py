@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Recursively extracts the text from a Google Doc.
 """
@@ -13,9 +13,6 @@ from httplib2 import Http
 from oauth2client import client
 from oauth2client import file as oauth2clientfile
 from oauth2client import tools
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 SCOPES = 'https://www.googleapis.com/auth/documents.readonly'
 DISCOVERY_DOC = 'https://docs.googleapis.com/$discovery/rest?version=v1'
